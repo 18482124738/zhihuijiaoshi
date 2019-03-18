@@ -1,0 +1,51 @@
+
+.PracticeTitle{
+  font-size: 17px;
+  padding: 10px 10px 0 10px;
+  color: black;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+@-webkit-keyframes wordsLoop {
+  0% {
+      transform: translateX(0px);
+      -webkit-transform: translateX(0px);
+  }
+  100% {
+      transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes wordsLoop {
+  0% {
+      transform: translateX(0px);
+      -webkit-transform: translateX(0px);
+  }
+  100% {
+      transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+  }
+}
+.MYNav{
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  top: 0;
+  height: 7vh;
+  text-align: center;
+}
+.MYNavTitleBox{
+  width: 200px;
+  overflow: hidden;
+
+}
+.MYNavTitle{
+  white-space: nowrap; 
+  letter-spacing: 1px;
+  text-indent: 30px;
+  animation:wordsLoop 10s linear infinite 0s; 
+  animation:wordsLoop 10s linear infinite 0s; 
+  animation-delay:0s;
+  -webkit-animation-delay:0s;
+}
